@@ -71,7 +71,7 @@ En esta práctica se agregaron nuevos endpoints a la misma API **estudiantes** (
 ```json
 {
   "mensaje": "Lista de estudiantes obtenida correctamente.",
-  "estudiantes": ["Ana", "Carlos", "María"]
+   "estudiantes": ["Rafael", "Marco", "Pedro"]
 }
 ```
 
@@ -83,7 +83,7 @@ En esta práctica se agregaron nuevos endpoints a la misma API **estudiantes** (
 
 ```json
 {
-  "nombre": "Pedro"
+  "nombre": "Daniela"
 }
 ```
 
@@ -92,7 +92,7 @@ En esta práctica se agregaron nuevos endpoints a la misma API **estudiantes** (
 ```json
 {
   "mensaje": "Estudiante agregado correctamente.",
-  "estudiante": "Pedro"
+  "estudiante": "Daniela"
 }
 ```
 
@@ -112,7 +112,7 @@ En esta práctica se agregaron nuevos endpoints a la misma API **estudiantes** (
 
 ```json
 {
-  "nombre": "Pedro Ramírez"
+  "nombre": "Daniela Retana"
 }
 ```
 
