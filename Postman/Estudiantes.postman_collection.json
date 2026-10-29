@@ -1,0 +1,131 @@
+{
+  "info": {
+    "_postman_id": "a43e0877-8e6a-4d69-a140-02048d4eeef6",
+    "name": "Estudiantes",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "59315607",
+    "_collection_link": "https://go.postman.co/collection/59315607-a43e0877-8e6a-4d69-a140-02048d4eeef6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Obtener todos los estudiantes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/estudiantes/api/v1/estudiantes",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "estudiantes",
+            "api",
+            "v1",
+            "estudiantes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Agregar estudiante",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "   {\r\n     \"nombre\": \"Daniela\"\r\n   }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/estudiantes/api/v1/estudiantes",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "estudiantes",
+            "api",
+            "v1",
+            "estudiantes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar estudiante",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "   {\r\n     \"nombre\": \"Pedro Retana\"\r\n   }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/estudiantes/api/v1/estudiantes/1",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "estudiantes",
+            "api",
+            "v1",
+            "estudiantes",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar estudiante",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/estudiantes/api/v1/estudiantes/1",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "estudiantes",
+            "api",
+            "v1",
+            "estudiantes",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
